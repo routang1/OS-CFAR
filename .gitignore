@@ -1,0 +1,38 @@
+# C/C++ build products
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+*.pdb
+*.ilk
+
+# Build directories
+build/
+out/
+Debug/
+Release/
+cmake-build-*/
+
+# Generated logs and runtime output
+*.log
+c_outputs/
+
+# Compiler dependency and coverage files
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Editor and operating-system temporary files
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+
